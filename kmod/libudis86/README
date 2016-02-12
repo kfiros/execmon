@@ -1,0 +1,24 @@
+libudis86 @ 5a7e0fbf44aad5454f0fdddff15585cd05810840
+
+1) clone udis86 repo
+
+    $ git clone https://github.com/vmt/udis86 .
+
+2) configure and make
+
+    $ cd udis86
+    $ ./autogen.sh
+    $ ./configire --prefix=/usr/local
+    $ make
+
+3) copy libudis86 sources as it shown here
+
+    src/
+        udis86.h
+    src/libudis86/
+        decode.{c,h}
+        extern.h
+        itab.{c,h}
+        types.h
+        udint.h
+        udis86.c
