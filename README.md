@@ -19,8 +19,8 @@ In the past, hooking syscalls in the Linux kernel was an easier task, however, i
 * Use on your own risk
 
 ### How To Use
-* Compile using make
-* Insert the kernel module (using insmod)
+* Compile using `make`
+* Insert the kernel module (using `insmod`)
 * Run the user application
 
 ## Author
