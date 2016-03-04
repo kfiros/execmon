@@ -7,6 +7,8 @@ Whenever the kernel intercepts a new execution, it notifies the user immediately
 In the past, hooking syscalls in the Linux kernel was an easier task, however, in newer kernels, assembly stubs were added to the syscalls.
 `execmon` overcomes this obstacle, patching the kernel on the fly. For this purpose I used the open source project Udis86.
 
+<img src="https://raw.githubusercontent.com/kfiros/execmon/master/execmon.png" />
+
 ### Future Goals
 * Intercept more syscalls
 * Better graphical data presentation for the user
@@ -29,3 +31,5 @@ Kfir Shtober (Kfiros) 2016
 ## Thanks & Credits
 * Ilya V. Matveychikov (https://github.com/milabs)
 * Udis86 (https://github.com/vmt/udis86)
+
+
